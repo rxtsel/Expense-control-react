@@ -1,5 +1,7 @@
 # Money management app. 💰
 
+### App to keep track of our money built with react.
+
 Use:
 - Components.
 - Hooks.
@@ -7,12 +9,10 @@ Use:
 - LocalStorage.
 - Responsive Design.
 
-Preview:
-
-![1](https://user-images.githubusercontent.com/85462420/174500576-469aa69f-7b05-4ae6-a919-dba4206e5301.png)
-
 <details>
 <summary>Gallery</summary>
+ 
+ ![1](https://user-images.githubusercontent.com/85462420/174500576-469aa69f-7b05-4ae6-a919-dba4206e5301.png)
 
  ![2](https://user-images.githubusercontent.com/85462420/174500606-558c8b25-73b0-4ead-aad3-414adabe07c4.png)
   
