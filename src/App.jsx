@@ -142,7 +142,9 @@ const App = () => {
           setGastoEditar={setGastoEditar}
         />}
 
-      <Footer />
+      <Footer
+        isValidPresupuesto={isValidPresupuesto}
+      />
 
     </div>
   )

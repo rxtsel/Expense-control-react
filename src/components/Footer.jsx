@@ -1,6 +1,8 @@
-const Footer = () => {
+const Footer = ({ isValidPresupuesto }) => {
   return (
-    <footer className='footer'>
+    <footer
+      className={`footer ${isValidPresupuesto ? '' : 'margin-footer'}`}
+    >
       <p
         className='footer__text'
       >
