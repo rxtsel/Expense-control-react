@@ -377,6 +377,8 @@ main {
   .contenido-gasto {
     flex-direction: column;
     text-align: center;
+    gap: 0;
+    place-items: center;
   }
 
   p.cantidad-gasto {
@@ -403,14 +405,13 @@ main {
 
 @media (max-width: 480px) {
   .descripcion-gasto .categoria {
-    top: -12rem;
-    left: -12rem;
+    top: 2.9rem;
+    left: -5.5rem;
     padding: 1rem;
-    position: relative;
+    position: absolute;
     transform: rotate(-45deg);
     background: var(--bg-input);
     width: 20rem;
-    max-width: 50vw;
     overflow: hidden;
     margin: 0;
     text-align: center;
@@ -426,6 +427,7 @@ main {
   color: var(--foreground-subtitle);
   font-size: 2.4rem;
   font-weight: 600;
+  margin-top: 1.5rem;
 }
 
 .descripcion-gasto .nombre-gasto:hover {
@@ -529,6 +531,7 @@ body .modal {
   font-size: 2.4rem;
   text-align: right;
   border-radius: 15px;
+  z-index: 2;
 }
 
 .swipe-action__leading {
@@ -541,4 +544,64 @@ body .modal {
   background-color: var(--red);
   color: var(--foreground-color);
   margin-bottom: 2rem;
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem;
+}
+
+.footer__text {
+  color: var(--foreground-color);
+}
+
+.footer__link {
+  text-decoration: none;
+  color: var(--foreground-color);
+  font-weight: 700;
+  transition: all .5s ease-in-out;
+}
+
+.footer__link:hover {
+  color: var(--foreground-subtitle);
+  text-decoration: underline;
+}
+
+/* github corner */
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out
+}
+
+@keyframes octocat-wave {
+
+  0%,
+  100% {
+    transform: rotate(0)
+  }
+
+  20%,
+  60% {
+    transform: rotate(-25deg)
+  }
+
+  40%,
+  80% {
+    transform: rotate(10deg)
+  }
+}
+
+@media (max-width:500px) {
+  .github-corner:hover .octo-arm {
+    animation: none
+  }
+
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out
+  }
+}
+
+@media (max-width: 768px) {
+  .github-corner {
+    display: none;
+  }
 }

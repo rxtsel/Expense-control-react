@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import Filtro from './components/Flitro'
 import Header from './components/Header'
+import Footer from './components/Footer'
 import ListadoGastos from './components/ListadoGastos'
 import Modal from './components/Modal'
 import { genId } from './helpers'
@@ -140,6 +141,8 @@ const App = () => {
           gastoEditar={gastoEditar}
           setGastoEditar={setGastoEditar}
         />}
+
+      <Footer />
 
     </div>
   )
