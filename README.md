@@ -1,4 +1,4 @@
-# Money management app. 💰
+# Money management app. 💵
 
 ### App to keep track of our money built with react.
 
