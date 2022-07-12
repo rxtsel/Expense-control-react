@@ -27,8 +27,8 @@ const NewPresupuest = ({
             type='number'
             id='presupuesto'
             className='nuevo-presupuesto'
-            placeholder='Añade tu presupuesto sin puntos'
-            value={presupuesto}
+            placeholder='Añade tu presupuesto'
+            value={presupuesto || ''}
             onChange={e => setPresupuesto(parseInt(e.target.value.replace(/[^0-9]/g, '')))}
           />
         </div>
