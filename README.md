@@ -2,6 +2,8 @@
 
 ### App to keep track of our money built with react.
 
+![Expense-control-react](https://socialify.git.ci/rxtsel/Expense-control-react/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Charlie%20Brown&stargazers=1&theme=Light)
+
 Use:
 - Components.
 - Hooks.
